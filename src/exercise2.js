@@ -1,9 +1,9 @@
 exports.run = function(input) {
         var res = input.split(",");
-        var somme = 0;
+        var sum = 0;
         for (var i=0; i < res.length; i++) {
-            somme += Number(res[i]);
+            sum += Number(res[i]);
         }
-        return somme;
+        return sum;
 };
 
